@@ -1,0 +1,37 @@
+
+State Machine - |vector06c|programmer:mpg|spi_return
+Name spi_return.000110 spi_return.000101 spi_return.000100 spi_return.000011 spi_return.000010 spi_return.000000 
+spi_return.000000 0 0 0 0 0 0 
+spi_return.000010 0 0 0 0 1 1 
+spi_return.000011 0 0 0 1 0 1 
+spi_return.000100 0 0 1 0 0 1 
+spi_return.000101 0 1 0 0 0 1 
+spi_return.000110 1 0 0 0 0 1 
+
+State Machine - |vector06c|programmer:mpg|spi_state
+Name spi_state.001111 spi_state.001110 spi_state.001101 spi_state.001100 spi_state.001010 spi_state.001001 spi_state.001000 spi_state.000111 spi_state.000110 spi_state.000101 spi_state.000100 spi_state.000011 spi_state.000010 spi_state.000001 spi_state.000000 
+spi_state.000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+spi_state.000001 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+spi_state.000010 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+spi_state.000011 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+spi_state.000100 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+spi_state.000101 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+spi_state.000110 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+spi_state.000111 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+spi_state.001000 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+spi_state.001001 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+spi_state.001010 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+spi_state.001100 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+spi_state.001101 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+spi_state.001110 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+spi_state.001111 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |vector06c|programmer:mpg|spi:msp|spi_state
+Name spi_state.00110 spi_state.00101 spi_state.00100 spi_state.00011 spi_state.00010 spi_state.00001 spi_state.00000 
+spi_state.00000 0 0 0 0 0 0 0 
+spi_state.00001 0 0 0 0 0 1 1 
+spi_state.00010 0 0 0 0 1 0 1 
+spi_state.00011 0 0 0 1 0 0 1 
+spi_state.00100 0 0 1 0 0 0 1 
+spi_state.00101 0 1 0 0 0 0 1 
+spi_state.00110 1 0 0 0 0 0 1 

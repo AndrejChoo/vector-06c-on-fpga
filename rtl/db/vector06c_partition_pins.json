@@ -1,0 +1,229 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tmds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tmds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tmds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_ADD[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_CS",
+					"strict" : false
+				},
+				{
+					"name" : "ER_OE",
+					"strict" : false
+				},
+				{
+					"name" : "ER_WE",
+					"strict" : false
+				},
+				{
+					"name" : "BEEP",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RAZR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ER_D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "KB_LATCH",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "HOLD",
+					"strict" : false
+				},
+				{
+					"name" : "KB_CS",
+					"strict" : false
+				},
+				{
+					"name" : "MAG_IN",
+					"strict" : false
+				},
+				{
+					"name" : "KB_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "KB_SCK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
