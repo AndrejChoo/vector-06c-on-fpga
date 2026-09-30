@@ -130,13 +130,18 @@ always@(posedge pixclk or negedge CRST)
 						begin
 							if(regim[0]) //512x256
 								begin
-									tzd[0][15:0] <= {VR_DO1[7],VR_DO2[7],VR_DO1[6],VR_DO2[6],VR_DO1[5],VR_DO2[5],VR_DO1[4],VR_DO2[4],
-														  VR_DO1[3],VR_DO2[3],VR_DO1[2],VR_DO2[2],VR_DO1[1],VR_DO2[1],VR_DO1[0],VR_DO2[0]};
-									
-									tzd[1][15:0] <= {VR_DO0[7],VR_DO3[7],VR_DO0[6],VR_DO3[6],VR_DO0[5],VR_DO3[5],VR_DO0[4],VR_DO3[4],
-														  VR_DO0[3],VR_DO3[3],VR_DO0[2],VR_DO3[2],VR_DO0[1],VR_DO3[1],VR_DO0[0],VR_DO3[0]};
-									tzd[2][15:0] <= 16'h0000;
-									tzd[3][15:0] <= 16'h0000;
+									//1
+									tzd[0][15:0] <= {VR_DO0[7],1'b0,VR_DO0[6],1'b0,VR_DO0[5],1'b0,VR_DO0[4],1'b0,
+														  VR_DO0[3],1'b0,VR_DO0[2],1'b0,VR_DO0[1],1'b0,VR_DO0[0],1'b0};
+									//2
+									tzd[1][15:0] <= {VR_DO1[7],1'b0,VR_DO1[6],1'b0,VR_DO1[5],1'b0,VR_DO1[4],1'b0,
+														  VR_DO1[3],1'b0,VR_DO1[2],1'b0,VR_DO1[1],1'b0,VR_DO1[0],1'b0};
+									//4					  
+									tzd[2][15:0] <= {1'b0,VR_DO2[7],1'b0,VR_DO2[6],1'b0,VR_DO2[5],1'b0,VR_DO2[4],
+														  1'b0,VR_DO2[3],1'b0,VR_DO2[2],1'b0,VR_DO2[1],1'b0,VR_DO2[0]};
+									//8
+									tzd[3][15:0] <= {1'b0,VR_DO3[7],1'b0,VR_DO3[6],1'b0,VR_DO3[5],1'b0,VR_DO3[4],
+														  1'b0,VR_DO3[3],1'b0,VR_DO3[2],1'b0,VR_DO3[1],1'b0,VR_DO3[0]};	
 								end
 							else //256x256
 								begin
@@ -219,7 +224,9 @@ begin
 						if(!SCREEN) vscroll <= DIN[7:0];
 					end
 				8'h0C: color[(PALET_ADD[3:0])] <= DIN;
-
+				8'h0D: color[(PALET_ADD[3:0])] <= DIN;
+				8'h0E: color[(PALET_ADD[3:0])] <= DIN;
+				8'h0F: color[(PALET_ADD[3:0])] <= DIN;
 				default:;
 			endcase
 		end
