@@ -16,8 +16,8 @@ module videoprocessor(
 	//SCREEN
 	output wire SCR,
 	//Debug
-	output wire[7:0]RAZR,
-	output wire[7:0]SEG,
+	//output wire[7:0]RAZR,
+	//output wire[7:0]SEG,
 	input wire[7:0]RDO
 );
 
@@ -422,6 +422,7 @@ assign Rb[7:0] = {{2{color[COL][2]}},{2{color[COL][1]}},{2{color[COL][0]}},2'b00
 assign Gb[7:0] = {{2{color[COL][5]}},{2{color[COL][4]}},{2{color[COL][3]}},2'b00};
 assign Bb[7:0] = {{3{color[COL][7]}},{3{color[COL][6]}},2'b00};
 
+/*
 //Debug
 din7seg md7s(
 .clk(pixclk),
@@ -436,7 +437,7 @@ din7seg md7s(
 .SEG(SEG),
 .RAZR(RAZR)
 );
-
+*/
 
 endmodule
 
