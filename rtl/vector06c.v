@@ -32,8 +32,8 @@ module vector06c(
 	//Switch
 	input wire[1:0]SW,
 	//Debug
-	output wire[7:0]SEG,
-	output wire[7:0]RAZR,
+	//output wire[7:0]SEG,
+	//output wire[7:0]RAZR,
 	output wire LED
 );
 
@@ -151,9 +151,9 @@ videoprocessor mvp(
 	.IOWR(WIO),
 	.STRINT(STRINT),
 	.SCR(SCREEN),
-			//Debug
-	.RAZR(RAZR),
-	.SEG(SEG),
+	//Debug
+	//.RAZR(RAZR),
+	//.SEG(SEG),
 	.RDO({4'b0000,VVOD,KPC})
 );
 
